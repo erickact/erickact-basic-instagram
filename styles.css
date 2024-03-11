@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#container {
+  width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 50px 0;
+}
+
+header {
+  margin-bottom: 80px;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.post-header span {
+  color: rgb(189, 188, 188);
+}
+
+.post img {
+  max-width: 100%;
+}
+
+.post-description {
+  padding: 15px 20px;
+}
